@@ -1,0 +1,38 @@
+﻿2018-02-15 19:59:05.771 INFO  DefaultFactory Logging to 'D:\Projects\NSB6SelfHostedClientMVCAzureTransportAndPersistence\NSB6SelfHostedClientMVC\App_Data\' with level Info
+2018-02-15 19:59:06.279 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 28 June 2018
+
+2018-02-15 19:59:06.316 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'PHARMS-SERVICES\mgmccarthy' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "PHARMS-SERVICES\mgmccarthy" /add
+2018-02-15 19:59:06.370 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 19:59:06.374 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 19:59:06.375 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 19:59:06.376 INFO  NServiceBus.AzureStorageSubscriptionPersistence+StartupTask Creating Subscription Table
+2018-02-15 20:01:28.146 INFO  DefaultFactory Logging to 'D:\Projects\NSB6SelfHostedClientMVCAzureTransportAndPersistence\NSB6SelfHostedClientMVC\App_Data\' with level Info
+2018-02-15 20:01:28.923 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 28 June 2018
+
+2018-02-15 20:01:28.954 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'PHARMS-SERVICES\mgmccarthy' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "PHARMS-SERVICES\mgmccarthy" /add
+2018-02-15 20:01:29.004 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 20:01:29.007 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 20:01:29.018 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 20:01:29.019 INFO  NServiceBus.AzureStorageSubscriptionPersistence+StartupTask Creating Subscription Table
+2018-02-15 20:06:01.570 INFO  DefaultFactory Logging to 'D:\Projects\NSB6SelfHostedClientMVCAzureTransportAndPersistence\NSB6SelfHostedClientMVC\App_Data\' with level Info
+2018-02-15 20:06:02.091 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 28 June 2018
+
+2018-02-15 20:06:02.119 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'PHARMS-SERVICES\mgmccarthy' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "PHARMS-SERVICES\mgmccarthy" /add
+2018-02-15 20:06:02.169 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 20:06:02.171 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 20:06:02.173 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 20:09:22.093 INFO  DefaultFactory Logging to 'D:\Projects\NSB6SelfHostedClientMVCAzureTransportAndPersistence\NSB6SelfHostedClientMVC\App_Data\' with level Info
+2018-02-15 20:09:22.598 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 28 June 2018
+
+2018-02-15 20:09:22.626 INFO  NServiceBus.PerformanceMonitorUsersInstaller Did not attempt to add user 'PHARMS-SERVICES\mgmccarthy' to group 'Performance Monitor Users' since the process is not running with elevated privileges. Processing will continue. To manually perform this action, run the following command from an admin console:
+net localgroup "Performance Monitor Users" "PHARMS-SERVICES\mgmccarthy" /add
+2018-02-15 20:09:22.678 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 20:09:22.683 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-15 20:09:22.687 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.

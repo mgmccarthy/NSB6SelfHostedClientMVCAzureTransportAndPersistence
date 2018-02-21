@@ -1,0 +1,51 @@
+﻿2018-02-13 09:47:32.768 INFO  DefaultFactory Logging to 'D:\Projects\NSB6SelfHostedClientMVC\NSB6SelfHostedClientMVC\App_Data\' with level Info
+2018-02-13 09:47:32.862 ERROR NServiceBus.DetectObsoleteConfigurationSettings The use of the MessageEndpointMappings in the UnicastBusConfig configuration section is discouraged and will be removed in the next major version. Switch to the code API by using  'EndpointConfiguration.UseTransport<T>().Routing()' instead.
+2018-02-13 09:47:32.972 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 28 June 2018
+
+2018-02-13 09:47:33.097 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'PHARMS-SERVICES\mgmccarthy' to group 'Performance Monitor Users' because the user is already in group.
+2018-02-13 09:47:33.190 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:47:33.190 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:47:33.206 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:47:33.206 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:47:33.206 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:53:49.333 INFO  DefaultFactory Logging to 'D:\Projects\NSB6SelfHostedClientMVC\NSB6SelfHostedClientMVC\App_Data\' with level Info
+2018-02-13 09:53:49.458 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 28 June 2018
+
+2018-02-13 09:53:49.536 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'PHARMS-SERVICES\mgmccarthy' to group 'Performance Monitor Users' because the user is already in group.
+2018-02-13 09:53:49.583 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:53:49.583 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:53:49.599 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:53:49.599 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:53:49.599 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:56:07.977 INFO  DefaultFactory Logging to 'D:\Projects\NSB6SelfHostedClientMVC\NSB6SelfHostedClientMVC\App_Data\' with level Info
+2018-02-13 09:56:08.111 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 28 June 2018
+
+2018-02-13 09:56:08.189 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'PHARMS-SERVICES\mgmccarthy' to group 'Performance Monitor Users' because the user is already in group.
+2018-02-13 09:56:08.236 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:56:08.236 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:56:08.236 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:56:08.252 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:56:08.252 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:56:37.263 INFO  DefaultFactory Logging to 'D:\Projects\NSB6SelfHostedClientMVC\NSB6SelfHostedClientMVC\App_Data\' with level Info
+2018-02-13 09:56:37.388 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 28 June 2018
+
+2018-02-13 09:56:37.451 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'PHARMS-SERVICES\mgmccarthy' to group 'Performance Monitor Users' because the user is already in group.
+2018-02-13 09:56:37.497 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:56:37.513 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:56:37.513 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:56:37.513 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:56:37.513 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:57:44.150 INFO  DefaultFactory Logging to 'D:\Projects\NSB6SelfHostedClientMVC\NSB6SelfHostedClientMVC\App_Data\' with level Info
+2018-02-13 09:57:44.275 INFO  NServiceBus.LicenseManager Selected active license from HKEY_CURRENT_USER\SOFTWARE\ParticularSoftware
+License Expiration: 28 June 2018
+
+2018-02-13 09:57:44.338 INFO  NServiceBus.PerformanceMonitorUsersInstaller Skipped adding user 'PHARMS-SERVICES\mgmccarthy' to group 'Performance Monitor Users' because the user is already in group.
+2018-02-13 09:57:44.385 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [Everyone] with AccessRights set to [GenericWrite]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:57:44.400 WARN  NServiceBus.QueuePermissions Queue [private$\audit] is running with [NT AUTHORITY\ANONYMOUS LOGON] with AccessRights set to [WriteMessage]. Consider setting appropriate permissions, if required by the organization. For more information, consult the documentation.
+2018-02-13 09:57:44.400 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs pulled from the input queue /sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:57:44.400 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs successfully processed / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
+2018-02-13 09:57:44.400 INFO  NServiceBus.PerformanceCounterHelper NServiceBus performance counter for '# of msgs failures / sec' is not set up correctly. To rectify this problem, consult the NServiceBus performance counters documentation.
