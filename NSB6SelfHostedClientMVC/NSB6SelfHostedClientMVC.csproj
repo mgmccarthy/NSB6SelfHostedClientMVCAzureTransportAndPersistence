@@ -91,6 +91,9 @@
     <Reference Include="NServiceBus.Persistence.AzureStorage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
       <HintPath>..\packages\NServiceBus.Persistence.AzureStorage.1.4.1\lib\net452\NServiceBus.Persistence.AzureStorage.dll</HintPath>
     </Reference>
+    <Reference Include="NServiceBus.Persistence.Sql, Version=3.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NServiceBus.Persistence.Sql.3.0.4\lib\net452\NServiceBus.Persistence.Sql.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -98,6 +101,7 @@
     <Reference Include="System.Spatial, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Spatial.5.7.0\lib\net40\System.Spatial.dll</HintPath>
     </Reference>
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -260,7 +264,9 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\NServiceBus.Persistence.Sql.MsBuild.3.0.4\build\NServiceBus.Persistence.Sql.MsBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NServiceBus.Persistence.Sql.MsBuild.3.0.4\build\NServiceBus.Persistence.Sql.MsBuild.targets'))" />
   </Target>
+  <Import Project="..\packages\NServiceBus.Persistence.Sql.MsBuild.3.0.4\build\NServiceBus.Persistence.Sql.MsBuild.targets" Condition="Exists('..\packages\NServiceBus.Persistence.Sql.MsBuild.3.0.4\build\NServiceBus.Persistence.Sql.MsBuild.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

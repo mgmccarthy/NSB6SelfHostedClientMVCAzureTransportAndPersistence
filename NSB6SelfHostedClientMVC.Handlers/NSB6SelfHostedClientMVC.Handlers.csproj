@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,11 +63,15 @@
     <Reference Include="NServiceBus.Persistence.AzureStorage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
       <HintPath>..\packages\NServiceBus.Persistence.AzureStorage.1.4.1\lib\net452\NServiceBus.Persistence.AzureStorage.dll</HintPath>
     </Reference>
+    <Reference Include="NServiceBus.Persistence.Sql, Version=3.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NServiceBus.Persistence.Sql.3.0.4\lib\net452\NServiceBus.Persistence.Sql.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Spatial, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Spatial.5.7.0\lib\net40\System.Spatial.dll</HintPath>
     </Reference>
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -76,6 +82,7 @@
   <ItemGroup>
     <Compile Include="EndpointConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlHelper.cs" />
     <Compile Include="TestCommandHandler.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -106,4 +113,11 @@
     <StartAction>Program</StartAction>
     <StartProgram>$(ProjectDir)$(OutputPath)NServiceBus.Host.exe</StartProgram>
   </PropertyGroup>
+  <Import Project="..\packages\NServiceBus.Persistence.Sql.MsBuild.3.0.4\build\NServiceBus.Persistence.Sql.MsBuild.targets" Condition="Exists('..\packages\NServiceBus.Persistence.Sql.MsBuild.3.0.4\build\NServiceBus.Persistence.Sql.MsBuild.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NServiceBus.Persistence.Sql.MsBuild.3.0.4\build\NServiceBus.Persistence.Sql.MsBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NServiceBus.Persistence.Sql.MsBuild.3.0.4\build\NServiceBus.Persistence.Sql.MsBuild.targets'))" />
+  </Target>
 </Project>

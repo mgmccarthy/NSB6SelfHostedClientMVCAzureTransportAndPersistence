@@ -1,6 +1,7 @@
 version: '3'
 
 services:
+
   endpoint:
     image: endpoint
     build:
@@ -8,6 +9,7 @@ services:
       dockerfile: Dockerfile
     container_name: endpoint
     tty: true
+
   mvc:
     image: mvc
     build:
@@ -16,4 +18,10 @@ services:
     ports:
      - "80:80"
     container_name: mvc
-    
+    depends_on:
+      - endpoint
+
+networks:
+  default:
+    external:
+      name: nat
