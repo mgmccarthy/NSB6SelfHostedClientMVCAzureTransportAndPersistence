@@ -32,8 +32,6 @@ namespace NSB6SelfHostedClientMVC
             var subscriptions = persistence.SubscriptionSettings();
             subscriptions.CacheFor(TimeSpan.FromMinutes(1));
 
-            //SqlHelper.EnsureDatabaseExists(connection);
-
             var transportSettings = endpointConfiguration.UseTransport<AzureStorageQueueTransport>();
             transportSettings.ConnectionString(connectionString);
             transportSettings.DelayedDelivery().DisableTimeoutManager();
