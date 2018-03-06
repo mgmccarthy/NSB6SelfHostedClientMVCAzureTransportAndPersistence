@@ -33,6 +33,9 @@ namespace NSB6SelfHostedClientMVC.Handlers
             endpointConfiguration.UseSerialization<JsonSerializer>();
             endpointConfiguration.SendFailedMessagesTo("error");
             endpointConfiguration.AuditProcessedMessagesTo("audit");
+
+            var routingSettings = transportSettings.Routing();
+            routingSettings.RegisterPublisher(typeof(NSB6SelfHostedClientMVC.Messages.Events.TestEvent), "NSB6SelfHostedClientMVC.Handlers");
         }
     }
 }
